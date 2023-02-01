@@ -3,7 +3,7 @@
     require_once "../Element/header.php";
 ?>
 <h1>Ajouter un livre</h1>
-<div class="container">
+<div class="container mb-3">
     <form action="../Controller/add_book_back.php" method="post" class="form-row">
         <div class="form-group row mt-3">
             <label for="book_name">Nom du livre</label>

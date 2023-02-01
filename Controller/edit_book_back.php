@@ -1,11 +1,11 @@
 <?php
 
-    // Get values from form
-    $book_name = $_POST['book_name'];
-    $book_author = $_POST['book_author'];
-    $book_category = $_POST['book_category'];
-    $book_synopsis = $_POST['book_synopsis'];
-    $book_year_publication = $_POST['book_year_publication'];
+    // Remove character associated to HTML to prevent Cross-site scripting (XSS)
+    $book_name = htmlspecialchars($_POST['book_name']);
+    $book_author = htmlspecialchars($_POST['book_author']);
+    $book_category = htmlspecialchars($_POST['book_category']);
+    $book_synopsis = htmlspecialchars($_POST['book_synopsis']);
+    $book_year_publication = htmlspecialchars($_POST['book_year_publication']);
     $book_id = $_POST['book_id'];
 
     // Connection to database

@@ -6,7 +6,7 @@
     require_once('../Model/find_book_by_id.php');
 ?>
 <h1>Supprimer un livre</h1>
-<div class="container p-5">
+<div class="container p-5 mb-3">
     <div class="boder bg-secondary p-5 text-white d-flex flex-column justify-content-center">
         <p> Êtes vous sûr de vouloir supprimer le livre suivant : 
             <?PHP

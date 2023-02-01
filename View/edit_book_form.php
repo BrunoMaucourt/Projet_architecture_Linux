@@ -10,7 +10,7 @@
     require_once('../Model/find_book_by_id.php');
 ?>
 <h1>Modifier les informations d'un livre</h1>
-<div class="container">
+<div class="container mb-3">
     <form action="../Controller/edit_book_back.php" method="post" class="form-row">
         <div class="form-group row mt-3">
             <label for="book_name">Nom du livre</label>
