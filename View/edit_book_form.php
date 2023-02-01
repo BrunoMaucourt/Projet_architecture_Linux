@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $title = "Modifier les informations d'un livre";
     if(empty($_GET['id'])){
         header("Location: ./index.php");

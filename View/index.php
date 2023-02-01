@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $title = "Ma bibliothèque";
     require_once "../Element/header.php";
 ?>

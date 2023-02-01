@@ -1,9 +1,16 @@
 <?php
+    session_start();
     $title = "Ajouter un livre";
     require_once "../Element/header.php";
 ?>
 <h1>Ajouter un livre</h1>
 <div class="container mb-3">
+    <?php 
+        // Afficher un message si un erreur est présente
+        if(isset($_SESSION['error'])){
+            require_once "../Element/error_message.php";
+        }
+    ?>
     <form action="../Controller/add_book_back.php" method="post" class="form-row">
         <div class="form-group row mt-3">
             <label for="book_name">Nom du livre</label>
