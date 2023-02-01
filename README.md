@@ -2,7 +2,7 @@
 
 ## Contexte du projet
 
-Projet réalisé dans le cadre du cours Architecture Linux, à la Coding-Factory.
+Projet réalisé dans le cadre du cours Architecture Linux, à la Coding-Factory. Le but de ce module formation était de créer un environnement de production via deux machines virtuelles sous Debian, en mode CLI. L'une servant de serveur Apache2 / PHP et la deuxième de serveur MariaDB / MySQL. Le résultat est observé un client HTTP (navigateur Web) de la machine hôte. Le site herbergé est un simple CRUD sur le thème d'une bibliothèque (front-end boostrap et back-end PHP / MySQL).
 
 ## Projet réalisé par
 
