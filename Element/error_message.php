@@ -6,4 +6,5 @@
         echo '<div class="alert alert-danger container-fluid text-center" role="alert">';
         echo $_SESSION['error'];
         echo '</div>';
+        unset($_SESSION['error']);
     }

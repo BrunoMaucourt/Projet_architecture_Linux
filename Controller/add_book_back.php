@@ -3,7 +3,7 @@
     session_start();
 
     // Reset Session error
-    $_SESSION['error'] = "";
+    unset($_SESSION['error']);
 
     // Get values from form
     // Remove character associated to HTML to prevent Cross-site scripting (XSS)
