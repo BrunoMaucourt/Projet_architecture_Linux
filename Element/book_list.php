@@ -33,10 +33,16 @@
             </td>
             <td>
                 <?PHP
-                    // Show only a part of synopsis
-                    $synopsis_start_position = 0;
-                    $synopsis_start_length = 50;
-                    echo(substr($book['synopsis'], $synopsis_start_position, $synopsis_start_length) . ' ...');
+                    // Show only a part of synopsis if it's superior to 50 characters
+                    $synopsis_max_length = 50;
+
+                    // If superior to 50 characters truncat and add "..." at the end else write all the synopsis
+                    if(strlen($book['synopsis']) > $synopsis_max_length){
+                        $synopsis_start_position = 0;
+                        echo(substr($book['synopsis'], $synopsis_start_position, $synopsis_max_length) . ' ...');
+                    }else{
+                        echo($book['synopsis']);
+                    }
                 ?>
             </td>
             <td>
