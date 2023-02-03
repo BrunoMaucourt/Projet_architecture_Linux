@@ -32,8 +32,8 @@ https://www.linkedin.com/in/remi-moul/
 
 ## Captures d'écran
 
-![UTM](https://raw.githubusercontent.com/BrunoMaucourt/Projet_architecture_Linux/main/Documentation_files/Screenshots/Screenshot_UTM.png)
+![screenshot UTM](https://raw.githubusercontent.com/BrunoMaucourt/Projet_architecture_Linux/main/Documentation_files/Screenshots/Screenshot_UTM.png)
 
-![UTM](https://raw.githubusercontent.com/BrunoMaucourt/Projet_architecture_Linux/main/Documentation_files/Screenshots/Screenshot_website.png)
+![screenshot website](https://raw.githubusercontent.com/BrunoMaucourt/Projet_architecture_Linux/main/Documentation_files/Screenshots/Screenshot_website.png)
 
-![UTM](https://raw.githubusercontent.com/BrunoMaucourt/Projet_architecture_Linux/main/Documentation_files/Screenshots/Screenshot_infrastructure.png)
+![screenshot infrastructure](https://raw.githubusercontent.com/BrunoMaucourt/Projet_architecture_Linux/main/Documentation_files/Screenshots/Screenshot_infrastructure.png)
